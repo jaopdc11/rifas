@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Rifas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e1a"/>
+      <stop offset="1" stop-color="#060910"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- bilhete de rifa com picote -->
+  <g transform="translate(96 150)">
+    <rect x="0" y="0" width="320" height="212" rx="28" fill="none" stroke="url(#fg)" stroke-width="20"/>
+    <line x1="200" y1="14" x2="200" y2="198" stroke="url(#fg)" stroke-width="12" stroke-dasharray="6 16" stroke-linecap="round"/>
+    <text x="100" y="142" font-family="'Space Grotesk', Arial, sans-serif" font-size="120" font-weight="700" fill="url(#fg)" text-anchor="middle">7</text>
+  </g>
+</svg>
